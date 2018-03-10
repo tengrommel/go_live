@@ -1,4 +1,4 @@
-package cashing
+package caching
 
 import (
 	"testing"
