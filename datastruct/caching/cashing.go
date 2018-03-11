@@ -16,7 +16,7 @@ type data struct {
 
 var list *data
 
-func init()  {
+func init() {
 	var last *data
 	// Create a link list with the same number of elements.
 	for row := 0; row < rows; row++{
@@ -26,7 +26,8 @@ func init()  {
 			if list == nil{
 				list = &d
 			}
-			if list != nil{
+
+			if last != nil{
 				last.p = &d
 			}
 			last = &d
