@@ -10,4 +10,9 @@ func main() {
 	fmt.Println(s)
 	sort.Sort(sort.StringSlice(s))
 	fmt.Println(s)
+
+	sort.Strings(s)
+	fmt.Println(s)
+	sort.Sort(sort.Reverse(sort.StringSlice(s)))
+	fmt.Println(s)
 }
