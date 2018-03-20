@@ -31,3 +31,18 @@ within the same package.
     func name(list of parameters) (list of return types){
         function body
     }
+    
+- Naming Return Values
+> When you write functions, you can name the return values by defining variables at the top of the function.
+
+- Returning Multiple Values
+> Go is a language that provides lot of pragmatism in its language design.
+
+In Go, you can return multiple values from a function, which is a helpful feature in many practical scenarios.
+
+## Variadic Functions
+> A variadic function is a function that accepts a variable number of arguments.
+
+## Function Values, Anonymous Functions, and Closures
+>Go's pragmatism gives developers productivity like a dynamically typed language although Go is a statically typed language.
+
