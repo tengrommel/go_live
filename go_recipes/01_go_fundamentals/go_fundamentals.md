@@ -78,3 +78,10 @@ Go's map type is a data structure that provides an implementation of a hash tabl
 
 ## Working with Maps
 >Maps provide fast lookups on the data elements in the data structure.
+
+## Writing Clean-up Code in Functions
+> You would like to write clean-up logic in functions to execute clean-up actions after the surrounding function returns.
+
+Go provide a defer statement that allows you to write clean-up logic in functions.
+
+
