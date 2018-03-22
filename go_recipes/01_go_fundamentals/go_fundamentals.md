@@ -84,4 +84,6 @@ Go's map type is a data structure that provides an implementation of a hash tabl
 
 Go provide a defer statement that allows you to write clean-up logic in functions.
 
+## Recovering a Panicking Function Using Recover
+
 
