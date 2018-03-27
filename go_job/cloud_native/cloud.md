@@ -41,3 +41,7 @@
 - Simple HTTP server implementation in go
 - Json marshalling/unmarshalling of go structs
 - Simple rest api implementation
+
+- Using the Go net/http package
+- Implementing and start a simple HTTP server
+- Defining simple handler functions
